@@ -31,10 +31,18 @@ func quicksort(left : Nat, right : Nat, arry : [var Int]) {
 
 };
 
+<<<<<<< HEAD
 let a_arry :[var Int] = [var 5, 6, 8, 2, 1, 9, 0, 23, 12];
 
 quicksort(0 : Nat,8 : Nat, a_arry);
 
 for(ele in a_arry.vals()) {
+=======
+let a_arry = [var Int 5, 6, 8, 2, 1, 9, 0, 23, 12];
+
+quicksort(0 : Nat,8 : Nat, a_arry);
+
+for(ele in a_arry) {
+>>>>>>> 0afc1359af292c9a99a4b39e3da27dba0f84130d
     Debug.print(Int.toText(ele));
 };
