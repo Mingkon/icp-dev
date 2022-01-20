@@ -6,7 +6,7 @@ import Principal "mo:base/Principal";
 
 actor {
     public type Message = {
-        text: Text;
+        content: Text;
         time: Time.Time;
         author: Text;
         };
@@ -38,7 +38,7 @@ actor {
         // assert(Principal.toText(msg.caller) == "jqdif-2oder-67xoh-ncrob-3mj4v-273aq-5jpme-2kxfy-p4zmb-2kvlm-vqe");
         assert(otp == "123456");
         let message = {
-            text = text;
+            content = text;
             time = Time.now();
             author = canister_name;
         };
